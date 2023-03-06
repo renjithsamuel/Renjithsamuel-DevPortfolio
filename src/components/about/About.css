@@ -1,0 +1,102 @@
+.wrpabt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+  margin-top: 20vh;
+  z-index: 100;
+}
+
+
+.aboutwrap{
+  
+  background-color: rgb(182, 219, 252);
+  margin-top: 10px;
+  height: 80vh;
+  width:64vw;
+  display: flex;
+  margin: 60px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 100px;
+  /* width: 850px;
+  height: 550px;
+  margin: 100px auto; */
+  background-position: 90% 50%;
+  box-shadow: 0 5px 5px rgba(55,55,55,.4);
+  backdrop-filter: blur(1px); 
+}
+
+.aboutwrap .name {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: #fff;
+  font-size: 55px;
+  word-wrap: wrap;
+  padding: 10px;
+  transition: 0.4s;
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow:black;
+  backdrop-filter: blur(1px);
+  
+}
+
+.aboutwrap .name:hover {
+  cursor: default;
+  transform: translateX(20px);
+  color: rgb(0, 0, 0);
+  text-shadow: #b8b8b8;
+}
+.aboutwrap .name:first-letter {
+  font-size: 100px; 
+}
+
+.abtleft{
+  background-image: url('https://i.ibb.co/SJXYz3q/Profile-Pic-aboutme.jpg');
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-position-y:-5px;
+  background-position-x: 0px;
+  height: 100%;
+  width: 50%;
+  transition: 0.4s;
+}
+.abtleft:hover{
+  background-position-y:-20px;
+}
+.abtright{
+  padding: 5vh;
+  background-color: rgb(89, 89, 89);
+  width: 60%;
+  color: gray;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-shadow: none;
+  transition: 0.4s ease-in-out;
+  word-wrap: normal;
+  overflow: hidden;
+  
+}
+.abtright:hover{
+  /* width: 70%; */
+  text-shadow: #b8b8b8;
+  /* padding: 4.2vh; */
+  /* padding: 4vh; */
+  padding-top: 3.4vh;
+
+}
+.Aboutmetle{
+  color:rgb(134, 134, 134);
+  display: flex;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.sepbetabt{
+  height: 20px;
+}
+
+.abtabt{
+  color: rgb(205, 205, 205);
+}
