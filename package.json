@@ -10,11 +10,13 @@
     "raf": "^3.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fluid-animation": "^1.0.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-scroll-fade-animation": "^0.5.4",
     "react-sizeme": "^3.0.2",
+    "react-spring": "^9.7.1",
     "react-starfield-animation": "^1.0.1",
     "react-tsparticles": "^2.9.3",
     "tsparticles": "^2.9.3",
@@ -45,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0"
   }
 }

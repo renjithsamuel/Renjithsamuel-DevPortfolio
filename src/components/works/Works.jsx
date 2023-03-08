@@ -10,21 +10,24 @@ export default function Works() {
       name : 'On Your Marks' ,
       title : 'School Management App',
       desc : "An App that tracks real-time students learning’s outcomes and their academic progress across schools. Both Parents and Teachers can see the progress of students both in academics as well as in co-curricular activity",
-      madewith : "Flutter"
+      madewith : "Flutter",
+      gitlink: 'https://github.com/renjithsamuel/Student_management_system'
     },
     LiveFuelUpdater : {
       image : 'https://i.ibb.co/fqDtTgq/fuelprice.jpg',
       name : 'Live Fuel Updater' ,
       title : 'Live Fuel Price Updater App',
       desc : "Using this web app, we can easily know the up-to-date fuel price in all the states in India. Our application fetches the latest fuel price across all the states in India and displays in the app. We developed this in HTML and CSS.",
-      madewith : "Flask"
+      madewith : "Flask",
+      gitlink: 'https://github.com/renjithsamuel/LiveFuelPriceUpdater'
     },
     ExpenseMate : {
       image : 'https://i.ibb.co/MGLR70x/homepage.png',
       name : 'Expense Mate' ,
       title : 'Expense Tracker Website',
       desc : "This is a web application for tracking your expenses. It was created using HTML, CSS, and JavaScript for the front end, and Node.js, MongoDB, Express, and Mongoose for the backend. The user interface is designed to be simple, clean, and neat.",
-      madewith : "NodeJS"
+      madewith : "NodeJS",
+      gitlink:'https://github.com/renjithsamuel/ExpenseMate'
     },
 
   }

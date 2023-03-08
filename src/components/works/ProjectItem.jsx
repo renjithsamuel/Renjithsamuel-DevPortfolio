@@ -7,12 +7,15 @@ function ProjectItem(props) {
     <div>
         <div className="projectItem">
           <div className="projectleft" style={{backgroundImage: `url(${props.projectItems.image})` }}>
-                <div className="projectname">
-                    {props.projectItems.name}
-                    
-                </div>
+                <a href={props.projectItems.gitlink}  target='_blank'>
+
+                  <div className="projectname" style={{cursor:'pointer'}}>
+                      {props.projectItems.name}
+                  
+                  </div>
+                </a>
           </div>
-          <div className="projectright">
+          <div className="projectright" >
               <div className="projecttle">
                   {props.projectItems.title}
               </div>

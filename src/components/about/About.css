@@ -4,7 +4,7 @@
   align-items: center;
   margin-bottom: 10vh;
   margin-top: 20vh;
-  z-index: 100;
+  /* z-index: 100; */
 }
 
 
@@ -16,9 +16,9 @@
   width:64vw;
   display: flex;
   margin: 60px;
-  border-radius: 10px;
+  border-radius: 20px;
   position: relative;
-  z-index: 100px;
+  /* z-index: 100px; */
   /* width: 850px;
   height: 550px;
   margin: 100px auto; */
@@ -28,7 +28,7 @@
 }
 
 .aboutwrap .name {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   left: 20px;
   color: #fff;
@@ -53,7 +53,9 @@
 }
 
 .abtleft{
-  background-image: url('https://i.ibb.co/SJXYz3q/Profile-Pic-aboutme.jpg');
+  /* background-image: url('https://i.ibb.co/SJXYz3q/Profile-Pic-aboutme.jpg'); */
+  /* background-image: url('https://i.ibb.co/HTY23fB/dp-greyscale.jpg'); */
+  background-image: url('https://i.ibb.co/TB7xqbw/Profile-Pic-aboutme-2.jpg');
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background-position-y:-5px;
@@ -67,7 +69,7 @@
 }
 .abtright{
   padding: 5vh;
-  background-color: rgb(89, 89, 89);
+  background-color: rgb(66, 66, 66);
   width: 60%;
   color: gray;
   border-top-right-radius: 10px;
@@ -76,6 +78,9 @@
   transition: 0.4s ease-in-out;
   word-wrap: normal;
   overflow: hidden;
+  cursor: default;
+  /* backdrop-filter: blur(8px);
+  box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08); */
   
 }
 .abtright:hover{

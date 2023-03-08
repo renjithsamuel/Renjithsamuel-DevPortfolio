@@ -17,6 +17,8 @@
 
 body{
     /* backdrop-filter: blur(1px    ); */
+    font-family: "poppins", sans-serif;
+
     background-color: #0a0a0a;
 }
 

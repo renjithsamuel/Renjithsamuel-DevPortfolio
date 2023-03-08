@@ -1,10 +1,10 @@
 .projectItem{
     background-color: rgb(27, 27, 27);
-    height: 40vh;
+    height: 43vh;
     width: 70vw;
     border-radius: 10px;
     backdrop-filter: blur(5px);
-    z-index: 100;
+    /* z-index: 100; */
     display: flex;
     margin-bottom: 5vh;
     margin-top: 3vh;
@@ -16,15 +16,16 @@
 }
 
 .projectleft{
-    background-color: red;
+    background-color: transparent;
     /* background-image: url('https://i.ibb.co/KLM6Pn4/On-Your-Markscover.jpg'); */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     background-position-y:0px;
     /* background-position-x: 0px; */
     height: 100%;
-    width: 100%;
+    width: 35%;
     transition: 0.4s;
+    display: flex;
   }
 
   .projectleft:hover{
@@ -37,7 +38,7 @@ height: 35vh;
 } */
 
 .projectleft .projectname {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     left: 20px;
     color: #020202;
@@ -66,15 +67,19 @@ height: 35vh;
   
 
   .projectright{
+    /* display: none; */
+    cursor: default;
     height: 100%;
-    width: 150%;
+    width: 65%;
     padding: 3vh;
     transition: 0.3s;
     color: #b8b8b8;
+    transition: 0.2s ease-in-out;
     /* line-gap-override: 2px; */
   }
   .projectright:hover{
     padding-top: 3.7vh;
+    /* display: block; */
   }
   
   .projecttle{
@@ -116,8 +121,8 @@ height: 35vh;
         padding-left: 5px;
         padding-right: 5px;
         padding-bottom: 5px;
-        height: 4vh;
-        width: 3vw;
+        height: 6vh;
+        width: 5vw;
         border-radius: 10px;
         font-size: 15px;
         font-weight: 500;
@@ -128,4 +133,5 @@ height: 35vh;
 
     .madewith:hover{
       background-color: rgb(185, 185, 185);
+      width: 5.5vw;
     }

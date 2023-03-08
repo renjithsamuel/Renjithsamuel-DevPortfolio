@@ -10,7 +10,7 @@ export default function Home() {
 
 <div className="Homewrp">
       <div className='typewriter' id="Home">
-            <StarfieldAnimation
+            {/* <StarfieldAnimation
         style={{
           position: "fixed",
           width: "100vw",
@@ -24,7 +24,7 @@ export default function Home() {
         particleSpeed={0}
         dx={0.000000001}
         dy={0.000000001}
-      />
+      /> */}
         <div className='imtag' >I'm</div>
         <Typewriter className="typetag"
           options={{
