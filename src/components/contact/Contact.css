@@ -14,6 +14,12 @@
     border-radius: 20px;
     display: flex;
     margin-bottom: 10vh;
+    backdrop-filter: blur(5px);
+    opacity: 0.85; 
+    transition: 0.3s ease-in-out;
+}
+.contactbody:hover{
+    box-shadow: 0 5px 6px rgba(86, 86, 86, 0.2);
 }
 
 .contactleft{

@@ -36,7 +36,7 @@ export default function Contact() {
     <div id='Contact'>
        {/* {(status==="success")?alert('Email sent successfully!'):console.log('something went wrong')} */}
       <div className="contactbody">
-          <div className="contactleft">
+          <div className="contactleft" >
               <div className="contactname">
                   Contact
               </div>
@@ -44,7 +44,7 @@ export default function Contact() {
                 <Links/>
               </div>
           </div>
-          <div className="contactright">
+          <div className="contactright" >
             <form action="" onSubmit={handleSubmit}  method="post" enctype="text/plain">
               <div className="cusername">
                 <input type="text"

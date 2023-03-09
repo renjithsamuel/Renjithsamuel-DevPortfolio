@@ -6,6 +6,7 @@ import ProjectItem from './ProjectItem'
 export default function Works() {
   let projectItems = {
     OnYourMarks : {
+      key:1,
       image : 'https://i.ibb.co/KLM6Pn4/On-Your-Markscover.jpg',
       name : 'On Your Marks' ,
       title : 'School Management App',
@@ -14,6 +15,7 @@ export default function Works() {
       gitlink: 'https://github.com/renjithsamuel/Student_management_system'
     },
     LiveFuelUpdater : {
+      key:2,
       image : 'https://i.ibb.co/fqDtTgq/fuelprice.jpg',
       name : 'Live Fuel Updater' ,
       title : 'Live Fuel Price Updater App',
@@ -22,12 +24,14 @@ export default function Works() {
       gitlink: 'https://github.com/renjithsamuel/LiveFuelPriceUpdater'
     },
     ExpenseMate : {
+      key:3,
       image : 'https://i.ibb.co/MGLR70x/homepage.png',
       name : 'Expense Mate' ,
       title : 'Expense Tracker Website',
       desc : "This is a web application for tracking your expenses. It was created using HTML, CSS, and JavaScript for the front end, and Node.js, MongoDB, Express, and Mongoose for the backend. The user interface is designed to be simple, clean, and neat.",
       madewith : "NodeJS",
-      gitlink:'https://github.com/renjithsamuel/ExpenseMate'
+      gitlink:'https://github.com/renjithsamuel/ExpenseMate',
+      livesite: 'https://renjithsamuel.github.io/ExpenseMate/'
     },
 
   }

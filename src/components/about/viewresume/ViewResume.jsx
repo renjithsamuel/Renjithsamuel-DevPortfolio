@@ -5,7 +5,7 @@ import resumePdf from '../../../assets/Renjiths Resume.pdf';
 export default function ViewResume() {
   return (
     
-      <div class="viewresume">
+      <div className="viewresume">
         <div className="rwrapper">
           <div className="rsocial">
             <span style={{color:"grey"}}>View Resume</span>

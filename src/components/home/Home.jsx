@@ -28,10 +28,10 @@ export default function Home() {
         <div className='imtag' >I'm</div>
         <Typewriter className="typetag"
           options={{
-            strings: ['Renjith Samuel.', 'a Full-Stack Developer.'],
+            strings: ['Renjith Samuel', 'a Web Developer','a Full-Stack Developer'],
             typeSpeed:150,
             autoStart: true,
-            loop: true,
+            loop: false,
             delay:80,
             pauseFor:2000,
   

@@ -5,7 +5,8 @@ import About from './about/About';
 import Works from './works/Works';
 import Contact from './contact/Contact';
 import './portfolio.css';
-import FluidAnimation from 'react-fluid-animation';
+import { Element, scroller } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 // import ScrollAnimate from 'react-scroll-fade-animation';
 // import Zoom from 'react-reveal/Zoom';
@@ -40,16 +41,41 @@ export default function Portfolio() {
   }, [prevScrollpos]);
 
 
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('show');
+      }
+      else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+
+  const hiddenItems = document.querySelectorAll('.hiddenitem');
+  hiddenItems.forEach((el) => observer.observe(el));
+
   return ( 
     <div className='allcontainer' id='portfolio'>
 
       {/* <Zoom>   */}
         <div id="portfolio-items">
-          <Navbar id='Navbar' />
-           <Home id="Home"  className='portfolio-item'/>
-          <About id="About"  className='portfolio-item'/>
-          <Works id="Work"  className='portfolio-item'/>
-           <Contact id="Contact" className='portfolio-item'/>
+          <Navbar id='Navbar' >
+          <Link to="Home" smooth={true} duration={500}>Home</Link>
+         <Link to="About" smooth={true} duration={500}>About</Link>
+          <Link to="Work" smooth={true} duration={500}>Work</Link>
+           <Link to="Contact" smooth={true} duration={500}>Contact</Link>
+
+          </Navbar>
+          <Element name="Home">
+           <Home id="Home"  className='portfolio-item'/> </Element>
+           <Element name="About" className='hiddenitem'>
+
+          <About id="About"  className='portfolio-item'/> </Element>
+          <Element name="Work" className='hiddenitem'>
+          <Works id="Work"  className='portfolio-item'/></Element>
+          <Element name="Contact" className='hiddenitem'> 
+           <Contact id="Contact" className='portfolio-item'/></Element>
         </div>
          {/* <FluidAnimation pointer={true} /> */}
         {/* </Zoom> */}
