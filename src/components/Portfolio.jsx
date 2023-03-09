@@ -1,4 +1,4 @@
-import React , {useEffect , useState}from 'react';
+import React , {useEffect , useState,useRef }from 'react';
 import Navbar from './navbar/Navbar';
 import Home from './home/Home';
 import About from './about/About';
@@ -7,30 +7,19 @@ import Contact from './contact/Contact';
 import './portfolio.css';
 import { Element, scroller } from 'react-scroll';
 import { Link } from 'react-scroll';
-
-// import ScrollAnimate from 'react-scroll-fade-animation';
-// import Zoom from 'react-reveal/Zoom';
-// import Bounce from 'react-reveal/Bounce';
-// import Reveal from 'react-reveal/Reveal';
 export default function Portfolio() {
 
-
   const [prevScrollpos, setPrevScrollpos] = useState(0);
-  var rigthval = 0;
+  const backgroundPatternRef = useRef(null);
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
       if(prevScrollpos > currentScrollPos){
-        rigthval = rigthval-20;
-      const backgroundpattern = document.getElementById('backgroundpattern');
-      console.log("at scrollup R :" + rigthval);
-      backgroundpattern.style.backgroundPosition =`0% - ${rigthval}%`;
+        backgroundPatternRef.current.classList.remove('increaseSize');
+        console.log(backgroundPatternRef);
       }
       else if(prevScrollpos < currentScrollPos){
-        rigthval = rigthval+20;
-        console.log("at scrolldown R :" + rigthval);
-        const backgroundpattern = document.getElementById('backgroundpattern');
-        backgroundpattern.style.backgroundPosition =`0% - ${rigthval}%`;
+        backgroundPatternRef.current.classList.add('increaseSize');
       }
       setPrevScrollpos(currentScrollPos);
     };
@@ -39,16 +28,16 @@ export default function Portfolio() {
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, [prevScrollpos]);
-
+  
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if(entry.isIntersecting){
         entry.target.classList.add('show');
       }
-      else {
-        entry.target.classList.remove('show');
-      }
+      // else {
+      //   entry.target.classList.remove('show');
+      // }
     });
   });
 
@@ -58,7 +47,7 @@ export default function Portfolio() {
   return ( 
     <div className='allcontainer' id='portfolio'>
 
-      {/* <Zoom>   */}
+
         <div id="portfolio-items">
           <Navbar id='Navbar' >
           <Link to="Home" smooth={true} duration={500}>Home</Link>
@@ -77,9 +66,7 @@ export default function Portfolio() {
           <Element name="Contact" className='hiddenitem'> 
            <Contact id="Contact" className='portfolio-item'/></Element>
         </div>
-         {/* <FluidAnimation pointer={true} /> */}
-        {/* </Zoom> */}
-        <div id="backgroundpattern">
+        <div id="backgroundpattern"  ref={backgroundPatternRef}>
           
           </div>
     </div>

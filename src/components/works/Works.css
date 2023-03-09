@@ -60,14 +60,10 @@
   color: rgb(145, 145, 145);
   /* backdrop-filter: blur(10px); */
   border-radius: 15px;
-  /* padding-top: 2vh; */
-  transition: 0.3s ease-out;
+
 }
 
 
-.myworks:hover{
-  /* padding-top: 1.5vh; */
-}
 
 .fade-in {
     opacity: 0;

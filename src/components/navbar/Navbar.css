@@ -43,7 +43,7 @@
   opacity: 0.8;
   border-radius: 10px;
 }
-a{
+#navitems a{
   position: relative;
   text-decoration: none;
   font-family: 'Poppins',sans-serif;
@@ -53,7 +53,7 @@ a{
   padding: 0 10px;
 }
 
-a::after{
+#navitems a::after{
   content: "";
   position: absolute;
   background-color: rgb(68, 68, 68);
@@ -61,18 +61,18 @@ a::after{
   width:0px ;
   left: 0px;
   bottom: -10px;
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
-a:hover{
+#navitems a:hover{
   color: #ffffff;
 }
 
-a:hover:after{
+#navitems  a:hover:after{
   width: 100%;
 }
 
 
-a.active:after{
+#navitems a.active:after{
   content: "";
   position: absolute;
   background-color: rgb(120, 120, 120);
@@ -80,9 +80,9 @@ a.active:after{
   width:100% ;
   left: 0px;
   bottom: -10px;
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
-a.active{
+#navitems a.active{
   color: #ffffff;
 }

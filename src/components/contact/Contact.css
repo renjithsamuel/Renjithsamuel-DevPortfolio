@@ -4,8 +4,6 @@
     justify-content: center;
 }
 .contactbody{
-    
-
     background-color: transparent;
     /* margin: 30vh; */
     /* padding: 5vh; */
@@ -16,11 +14,8 @@
     margin-bottom: 10vh;
     backdrop-filter: blur(5px);
     opacity: 0.85; 
-    transition: 0.3s ease-in-out;
 }
-.contactbody:hover{
-    box-shadow: 0 5px 6px rgba(86, 86, 86, 0.2);
-}
+
 
 .contactleft{
     background-color: rgb(66, 66, 66);
@@ -30,13 +25,11 @@
     border-top-left-radius: 15px;
     display: flex;
     flex-direction: column;
-
     backdrop-filter: blur(5px);
     
 }
 
 .contactname{
-    /* background-color: red; */
     color: rgb(208, 208, 208);
     font-family: "poppins", sans-serif;
     font-size: 60px;
@@ -75,7 +68,7 @@
     margin-left: 10vw;
     color: rgb(92, 92, 92);
     background-color: #d5d5d5;;
-    transition: 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out, transform  0.2s ease-in-out;
     cursor: pointer;
     font-family: "Poppins",sans-serif;
     font-size: clamp(16px, 1.6vw, 18px);
