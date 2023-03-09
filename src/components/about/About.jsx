@@ -2,11 +2,9 @@ import React from 'react'
 import './About.css'
 import ViewResume from './viewresume/ViewResume';
 
-const About = () => {
+let About = () => {
 
   return (
- 
-
       <div className="wrpabt" id="About">
         <div className="aboutwrap">
         {/* <a href='https://github.com/renjithsamuel'  target='_blank'> */}

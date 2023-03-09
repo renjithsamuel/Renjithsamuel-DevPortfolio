@@ -9,8 +9,8 @@ export default function Links() {
     
         <div className="wrapper">
           <div className="social">
-            <span style={{color:"gray"}}>my profiles</span>
-            <div className="social-links">
+            <span style={{color:"black"}}>my profiles</span>
+            <div className="social-links" id='navitems'>
               <a href="https://github.com/renjithsamuel" target={'_blank'}><i className="fa fa-github" aria-hidden="true"></i></a>
               <a href="https://www.linkedin.com/in/Renjithsamuel" target={'_blank'}><i className="fa fa-linkedin" aria-hidden="true"></i></a>
               <a href="mailto:ranjithsamuelking@gmail.com" target={'_blank'}><i className="fa fa-envelope" aria-hidden="true"></i></a>

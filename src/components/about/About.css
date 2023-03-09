@@ -35,7 +35,7 @@
   font-size: 55px;
   word-wrap: wrap;
   padding: 10px;
-  transition: 0.4s;
+  transition: cursor 0.4s ease, transform 0.4s ease, color 0.4s ease;
   font-family: 'Titillium Web', sans-serif;
   text-shadow:black;
   backdrop-filter: blur(1px);
@@ -46,7 +46,6 @@
   cursor: default;
   transform: translateX(20px);
   color: rgb(0, 0, 0);
-  text-shadow: #b8b8b8;
 }
 .aboutwrap .name:first-letter {
   font-size: 100px; 
@@ -62,11 +61,12 @@
   background-position-x: 0px;
   height: 100%;
   width: 50%;
-  transition: 0.4s;
+  transition: background-position-y 0.4s ease;
 }
 .abtleft:hover{
   background-position-y:-20px;
 }
+
 .abtright{
   padding: 5vh;
   background-color: rgb(66, 66, 66);
@@ -75,7 +75,7 @@
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   text-shadow: none;
-  transition: 0.4s ease-in-out;
+  transition: padding 0.4s ease-in-out;
   word-wrap: normal;
   overflow: hidden;
   cursor: default;
@@ -85,12 +85,12 @@
 }
 .abtright:hover{
   /* width: 70%; */
-  text-shadow: #b8b8b8;
   /* padding: 4.2vh; */
   /* padding: 4vh; */
   padding-top: 3.4vh;
-
 }
+
+
 .Aboutmetle{
   color:rgb(134, 134, 134);
   display: flex;

@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav  className={visible ? 'visible' : 'hidden'}>
+      <nav  id='navitems' className={visible ? 'visible' : 'hidden'}>
           <a href='#Home' id='home' className='navelem' onClick={handleClick}>Home</a>
           <a href='#About' id='abt' className='navelem' onClick={handleClick}>About</a>
           <a href='#Work' id='work' className='navelem' onClick={handleClick}>Works</a>

@@ -5,8 +5,18 @@ import ProjectItem from './ProjectItem'
 
 export default function Works() {
   let projectItems = {
-    OnYourMarks : {
+    ExpenseMate : {
       key:1,
+      image : 'https://i.ibb.co/MGLR70x/homepage.png',
+      name : 'Expense Mate' ,
+      title : 'Expense Tracker Website',
+      desc : "This is a web application for tracking your expenses. It was created using HTML, CSS, and JavaScript for the front end, and Node.js, MongoDB, Express, and Mongoose for the backend. The user interface is designed to be simple, clean, and neat.",
+      madewith : "NodeJS",
+      gitlink:'https://github.com/renjithsamuel/ExpenseMate',
+      livesite: 'https://renjithsamuel.github.io/ExpenseMate/'
+    },
+    OnYourMarks : {
+      key:2,
       image : 'https://i.ibb.co/KLM6Pn4/On-Your-Markscover.jpg',
       name : 'On Your Marks' ,
       title : 'School Management App',
@@ -15,23 +25,13 @@ export default function Works() {
       gitlink: 'https://github.com/renjithsamuel/Student_management_system'
     },
     LiveFuelUpdater : {
-      key:2,
+      key:3,
       image : 'https://i.ibb.co/fqDtTgq/fuelprice.jpg',
       name : 'Live Fuel Updater' ,
       title : 'Live Fuel Price Updater App',
       desc : "Using this web app, we can easily know the up-to-date fuel price in all the states in India. Our application fetches the latest fuel price across all the states in India and displays in the app. We developed this in HTML and CSS.",
       madewith : "Flask",
       gitlink: 'https://github.com/renjithsamuel/LiveFuelPriceUpdater'
-    },
-    ExpenseMate : {
-      key:3,
-      image : 'https://i.ibb.co/MGLR70x/homepage.png',
-      name : 'Expense Mate' ,
-      title : 'Expense Tracker Website',
-      desc : "This is a web application for tracking your expenses. It was created using HTML, CSS, and JavaScript for the front end, and Node.js, MongoDB, Express, and Mongoose for the backend. The user interface is designed to be simple, clean, and neat.",
-      madewith : "NodeJS",
-      gitlink:'https://github.com/renjithsamuel/ExpenseMate',
-      livesite: 'https://renjithsamuel.github.io/ExpenseMate/'
     },
 
   }

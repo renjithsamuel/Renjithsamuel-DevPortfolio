@@ -8,7 +8,7 @@ export default function ViewResume() {
       <div className="viewresume">
         <div className="rwrapper">
           <div className="rsocial">
-            <span style={{color:"grey"}}>View Resume</span>
+            <span style={{color:"black"}}>View Resume</span>
             <div className="rsocial-links">
               <a href={resumePdf} target={'_blank'}><i className="fa fa-download" aria-hidden="true"></i></a>
             </div>
