@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectItem.css';
 function ProjectItem(props) {
 
-  console.log(props);
+  // console.log(props);
   return (
     <div>
         <div className="projectItem">

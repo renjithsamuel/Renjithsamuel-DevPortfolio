@@ -19,22 +19,22 @@ export default function Navbar() {
   }, [prevScrollpos]);
   
   let handleClick = event => {
-    let others = document.getElementsByTagName('a');
+    let others = document.getElementsByClassName('navelem');
     console.log(others);
     for(let i=0;i<others.length;i+=1){
-      others[i].classList.remove('active');
+      others[i].classList.remove('activeunder');
     }
-    event.target.classList.add('active');
+    event.target.classList.add('activeunder');
   }
 
 
   return (
     <div>
       <nav  className={visible ? 'visible' : 'hidden'}>
-          <a href='#Home' id='home' onClick={handleClick}>Home</a>
-          <a href='#About' id='abt' onClick={handleClick}>About</a>
-          <a href='#Work' id='work' onClick={handleClick}>Works</a>
-          <a href='#Contact' id='contact' onClick={handleClick}>Contact</a>
+          <a href='#Home' id='home' className='navelem' onClick={handleClick}>Home</a>
+          <a href='#About' id='abt' className='navelem' onClick={handleClick}>About</a>
+          <a href='#Work' id='work' className='navelem' onClick={handleClick}>Works</a>
+          <a href='#Contact' id='contact' className='navelem' onClick={handleClick}>Contact</a>
       </nav>
       
     </div>

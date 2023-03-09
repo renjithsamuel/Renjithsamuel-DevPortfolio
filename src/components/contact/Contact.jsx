@@ -34,7 +34,7 @@ export default function Contact() {
     
   return (
     <div id='Contact'>
-       {(status==="success")?alert('Email sent successfully!'):console.log('something went wrong')}
+       {/* {(status==="success")?alert('Email sent successfully!'):console.log('something went wrong')} */}
       <div className="contactbody">
           <div className="contactleft">
               <div className="contactname">
@@ -51,7 +51,7 @@ export default function Contact() {
                  className='cusernamec' 
                  placeholder='username' 
                  value={name}
-              onChange={(event) => setName(event.target.value)}
+              // onChange={(event) => setName(event.target.value)}
                  required />
               </div>
               <div className="cemail">
@@ -60,7 +60,7 @@ export default function Contact() {
                 placeholder='email'
                 type="email"
               value={email}
-              onChange={(event) => setEmail(event.target.value)}
+              // onChange={(event) => setEmail(event.target.value)}
                  required />
               </div>
               <div className="cmessage">
@@ -68,7 +68,7 @@ export default function Contact() {
               <textarea
                name="message" 
                value={message}
-               onChange={(event) => setMessage(event.target.value)}
+              //  onChange={(event) => setMessage(event.target.value)}
                 className='cmessagec'
                required placeholder='message' ></textarea>
               </div>

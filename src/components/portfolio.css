@@ -28,3 +28,52 @@ body{
     display: flex;
     flex-direction: column;
 }
+#portfolio-items{
+    z-index: 2;
+    position: relative;
+}
+
+
+#backgroundpattern{
+    height: 510vh;
+    width: 100vw;
+    background-image: radial-gradient(
+        rgba(2255,255,255,0.1)9%,
+        transparent 9%
+    );
+    background-position:  0% 0%;
+
+    background-size: 12vmin 12vmin;
+    opacity: 0.7;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    transition: opacity 800ms ease,
+            background-size 800ms ease;
+}
+#portfolio-items:hover ~ #backgroundpattern{
+    background-size: 11vmin 11vmin;
+    opacity: 1;
+}
+
+#Home:hover ~ #backgroundpattern{
+    background-size: 10vmin 10vmin;
+    background-position: 0% -25%;
+    opacity: 1;
+}
+#About:hover ~ #backgroundpattern{
+    background-size: 11vmin 11vmin;
+    background-position: 0% -50%;
+    opacity: 1;
+}
+#Work:hover ~ #backgroundpattern{
+    background-size: 10vmin 10vmin;
+    background-position: 0% -75%;
+    opacity: 1;
+}
+#Contact:hover ~ #backgroundpattern{
+    background-size: 11vmin 11vmin;
+    background-position: 0% -100%;
+    opacity: 1;
+}

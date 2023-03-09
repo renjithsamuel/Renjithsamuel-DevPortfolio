@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import ViewResume from './viewresume/ViewResume';
 
 const About = () => {
 
@@ -34,6 +35,10 @@ const About = () => {
                             am ready to embrace it. Recently, I have been particularly interested in Nodejs and web development.
                             I am amazed by the power of these technologies and their ability to transform
                             the way we interact with the digital world. 
+                          </div>
+
+                          <div className="rview">
+                            <ViewResume/>
                           </div>
             </div>
         </div>

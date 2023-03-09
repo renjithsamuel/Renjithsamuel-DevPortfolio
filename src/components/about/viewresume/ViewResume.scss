@@ -1,10 +1,11 @@
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
-.wrapper {
+.rwrapper {
   display: flex;
   width: 100%;
   height: 100%;
   align-items: center;
+  margin-top: 2vh;
 }
 
 *, div, span { box-sizing: border-box;}
@@ -13,20 +14,20 @@
 // 
 $blue: rgb(154, 154, 154);
 
-.social {
+.rsocial {
 
   font-family: "poppins", sans-serif;
   display: flex;
   align-items: center;
   position: relative;
-  width: 300px;
-  height: 70px;
+  width: 150px;
+  height: 50px;
   font-size: 18px;
   font-weight: 700;
   box-shadow: inset 0 0 0 2px #dbe3ea;
   border-radius: 50px;
   color: #9aa9b5;
-  background: #fff;
+  background: #dfdfdf;
   overflow: hidden;
   margin: auto;
   transition: box-shadow .2s ease-out;
@@ -36,7 +37,7 @@ $blue: rgb(154, 154, 154);
   }
   // Social Links
   //
-  .social-links {
+  .rsocial-links {
     
     display: flex;
     align-items: center;
@@ -70,7 +71,7 @@ $blue: rgb(154, 154, 154);
   // Hover 
   &:hover {
      box-shadow: inset 0 0 0 2px #434343, 0 1rem 20px rgba($blue,.2);
-    .social-links {
+    .rsocial-links {
       background: rgba($blue,1);
       // Sequential
       > a {
