@@ -63,14 +63,17 @@ body{
 @keyframes background-size-animation {
     0% {
     background-size: 10vmin 10vmin;
+    /* background-position: 0% -25%; */
     opacity: 0.8;
 }
 50% {
-    background-size: 13vmin 13vmin;
+    background-size: 11vmin 11vmin;
+    /* background-position: 50% -30%; */
     opacity: 0.7;
 }
 100% {
     background-size: 10vmin 10vmin;
+    /* background-position: 0% -25%; */
     opacity: 0.8;
     }
 }
@@ -110,7 +113,7 @@ body{
 .hiddenitem{
     opacity: 0;
     filter : blur(4px);
-    transform: translateX(-100%);
+    transform: translateX(-50%);
     scale: 0.8;
     transition-delay: 200ms;
     transition: scale 0.8s ease-in-out,opacity 0.8s ease-in-out,filter 0.8s ease-in-out,transform 0.8s ease-in-out;
