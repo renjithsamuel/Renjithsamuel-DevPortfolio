@@ -170,3 +170,49 @@ height: 35vh;
       background-color: rgb(185, 185, 185);
       width: 5.5vw;
     }
+
+
+    
+  @media only screen and (max-width: 520px) {
+
+    .projectItem{
+      font-size: 13px;
+      height:70vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .projectleft{
+      border-radius: 10px;
+      width: 100%;
+      height: 35%;
+    }
+    .projectright{
+      font-size: 13px;
+      width: 100%;
+    }
+    .projecttle{
+      font-size: 20px;
+    }
+    .desctle{
+      font-size: 15px;
+    }
+    .projectdesc{
+      font-size: 12px;
+    }
+    #livesite{
+      width: 20vw;
+    }
+    #livesite:hover{
+      width: 23vw;
+    }
+    .projectname{
+      display: none;
+    }
+    .madewith{
+      width: 20vw;
+    }
+    .madewith:hover{
+      width: 23vw;
+    }
+  }

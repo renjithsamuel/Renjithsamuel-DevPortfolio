@@ -5,16 +5,17 @@
 }
 
 .typewriter{
+
     height: 80vh;
-    width: 50vw;
+    width: 70vw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 30px;
+    font-size: 22px;
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     color: darkgray;
-    margin-left: 39vw;
+    margin-left: 18vw;
     margin-top: 10vh;
     letter-spacing: 1px;
     /* z-index: 1; */
