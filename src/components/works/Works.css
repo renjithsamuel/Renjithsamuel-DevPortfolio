@@ -70,3 +70,16 @@
     transition: opacity 0.5s ease-in-out;
   }
   
+
+  @media only screen and (max-width: 520px) {
+    .projectwrp{
+      height: 250vh;
+      width: 90%;
+      margin-left: 3vh;
+      margin-bottom: 50vh;
+    }
+    .myworks{
+      font-size: 30px;
+    }
+  
+  }  

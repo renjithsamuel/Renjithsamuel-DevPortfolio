@@ -8,7 +8,6 @@ export default function Contact() {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [status, setStatus] = useState("");
-
     const firebaseConfig = {
       apiKey: "AIzaSyA26EFh57tUvnxPg-eccz5ckf9bYcuU8jM",
       authDomain: "blogapp-858f2.firebaseapp.com",
@@ -54,6 +53,7 @@ export default function Contact() {
         return;
       }
     };
+
     
   return (
     <div id='Contact'>
@@ -101,7 +101,6 @@ export default function Contact() {
             </form>
           </div>
       </div>
-     
     </div>
   )
 }
