@@ -20,7 +20,7 @@ export default function Navbar() {
   
   let handleClick = event => {
     let others = document.getElementsByClassName('navelem');
-    console.log(others);
+    // console.log(others);
     for(let i=0;i<others.length;i+=1){
       others[i].classList.remove('activeunder');
     }

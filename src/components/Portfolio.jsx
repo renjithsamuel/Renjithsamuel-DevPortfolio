@@ -16,7 +16,7 @@ export default function Portfolio() {
       const currentScrollPos = window.pageYOffset;
       if(prevScrollpos > currentScrollPos){
         backgroundPatternRef.current.classList.remove('increaseSize');
-        console.log(backgroundPatternRef);
+        // console.log(backgroundPatternRef);
       }
       else if(prevScrollpos < currentScrollPos){
         backgroundPatternRef.current.classList.add('increaseSize');
