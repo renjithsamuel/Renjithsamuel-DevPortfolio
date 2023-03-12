@@ -210,15 +210,19 @@ textarea:focus{
             margin-top: 3vh;    
     }
     .cbtn{
-        margin-left: 19vw;
-        width: 16vw;
+
+        margin-left: 28vw;
+        width: 20vw;
+        height: 6.5vh;
     }
     .cbtn:hover{
-        width: 20vw;
+        width: 22vw;
+        height: 7vh;
     }
     .cusernamec,
     .cemailc,
     textarea{
+        margin-right: 4vw;
         width: 100%;
         /* margin-left: 5vh; */
     }
