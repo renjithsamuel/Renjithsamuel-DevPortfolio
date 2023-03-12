@@ -201,10 +201,10 @@ height: 35vh;
       font-size: 12px;
     }
     #livesite{
-      width: 20vw;
+      width: 24vw;
     }
     #livesite:hover{
-      width: 23vw;
+      width: 25vw;
     }
     .projectname{
       display: none;
