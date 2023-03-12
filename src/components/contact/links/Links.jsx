@@ -4,7 +4,7 @@ import './Links.scss';
 export default function Links() {
   return (
     
-      <div className="Links">
+      <div className="Links hiddenitem">
   
     
         <div className="wrapper">

@@ -28,7 +28,7 @@ export default function Contact() {
         email: email,
         message : message
       });
-    }
+    };
 
 
     const handleSubmit = async (event) => {
@@ -42,8 +42,9 @@ export default function Contact() {
         //   message:document.getElementById('messagefield')
         // )}
         writeUserData(name,name,email,message);
-  
+        
         setStatus("success");
+        alert('Message sent successfully!');
         setName("");
         setEmail("");
         setMessage("");
@@ -56,7 +57,7 @@ export default function Contact() {
     
   return (
     <div id='Contact'>
-       {(status==="success")?alert('Message sent successfully!'):console.log('something went wrong')}
+       {/* {(status==="success")?alert('Message sent successfully!'):console.log('something went wrong')} */}
       <div className="contactbody">
           <div className="contactleft" >
               <div className="contactname">

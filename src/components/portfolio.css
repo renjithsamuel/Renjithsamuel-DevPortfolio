@@ -57,20 +57,34 @@ body{
     z-index: 1;
     transition: all 800ms ease;
     background-repeat: repeat;
-    animation: background-size-animation 9s infinite;
+    animation: background-size-animation 15s infinite ease-in-out;
 }
 
 @keyframes background-size-animation {
     0% {
-    background-size: 10vmin 10vmin;
+    /* background-size: 10vmin 10vmin; */
+    /* background-position: 12vmin 12vmin; */
+    background-position: 0% -25%;
     opacity: 0.8;
 }
+25%{
+        opacity: 1;
+        /* background-size: 7vmin 7vmin; */
+        background-position: 0% - 25%;
+}
 50% {
-    background-size: 13vmin 13vmin;
-    opacity: 0.7;
+    background-size: 9vmin 9vmin;
+    background-position: 50% -30%;
+    opacity: 0.8;
+}
+75%{
+    opacity: 1;
+    /* background-size: 12vmin 12vmin; */
+    background-position: 50% -30%;
 }
 100% {
-    background-size: 10vmin 10vmin;
+    /* background-size: 12vmin 12vmin; */
+    background-position: 0% -25%;
     opacity: 0.8;
     }
 }
@@ -110,10 +124,10 @@ body{
 .hiddenitem{
     opacity: 0;
     filter : blur(4px);
-    transform: translateX(-100%);
-    scale: 0.8;
+    transform: translateX(-50%);
+    scale: 0.8 ;
     transition-delay: 200ms;
-    transition: scale 0.8s ease-in-out,opacity 0.8s ease-in-out,filter 0.8s ease-in-out,transform 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 .show{
