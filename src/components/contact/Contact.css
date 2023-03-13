@@ -192,6 +192,7 @@ textarea:focus{
         background-color: #212121;
         height:70vh;
         padding-bottom: 10vh;
+        font-size: 13px;
     }
             
     .contactright{
@@ -205,6 +206,8 @@ textarea:focus{
     }
     .contactname{
             padding-left: 2vw;
+        font-size: 50px;
+
     }
     .cusernamec{
             margin-top: 3vh;    
