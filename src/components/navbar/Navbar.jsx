@@ -12,12 +12,10 @@ export default function Navbar() {
       setVisible(prevScrollpos > currentScrollPos || currentScrollPos < 10);
       setPrevScrollpos(currentScrollPos);
     };
-
     window.addEventListener('scroll', handleScroll);
-
     return () => window.removeEventListener('scroll', handleScroll);
   }, [prevScrollpos]);
-  
+
   let handleClick = event => {
     let others = document.getElementsByClassName('navelem');
     // console.log(others);

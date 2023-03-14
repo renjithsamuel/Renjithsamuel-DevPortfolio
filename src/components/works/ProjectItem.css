@@ -176,10 +176,12 @@ height: 35vh;
   @media only screen and (max-width: 520px) {
 
     .projectItem{
+      margin-left: 0.9rem;
       font-size: 13px;
       height:70vh;
       display: flex;
       flex-direction: column;
+      width: 93%;
     }
 
     .projectleft{

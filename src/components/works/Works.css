@@ -11,22 +11,12 @@
     /* background-color: aliceblue  ; */
 }
 
-.particles-container {
-    background-color: transparent;
-    position: absolute;
-    /* z-index: -2000px; */
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100vh;
-  } 
+
   
 
 .projectwrp{
     height: 80%;
-    width: 80%;
+    width: 0%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
