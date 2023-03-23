@@ -24,12 +24,14 @@
     /* background-position-x: 0px; */
     height: 100%;
     width: 35%;
-    transition: 0.4s ease;
+    transition: 0.4s ease-in-out;
+    background-size:134%;
     display: flex;
+    /* background-clip: padding-box; */
   }
 
   .projectleft:hover{
-    background-position-y:-10px;
+    background-size:145%;
   }
 
 /* .projectimg{
@@ -45,18 +47,20 @@ height: 35vh;
     font-size: 35px;
     word-wrap: wrap;
     padding: 10px;
-    transition: 0.4s ease;
+    transition: 0.4s ease-in-out;
     font-family: 'Titillium Web', sans-serif;
     text-shadow:black;
     /* background-color: #404040; */
     border-radius: 10px;
     backdrop-filter: blur(2px);
+    scale: 1;
     
   }
   
   .projectleft .projectname:hover {
-    cursor: default;
-    transform: translateX(20px);
+    cursor: pointer;
+    transform: translateX(15px);
+    scale: 1.05;
     /* color: rgb(44, 44, 44); */
     /* border: #b8b8b8; */
     text-shadow: #b8b8b8;
@@ -109,7 +113,7 @@ height: 35vh;
       padding-left: 5px;
       padding-right: 5px;
       padding-bottom: 5px;
-      height: 6vh;
+      height: 45px;
       width: 7vw;
       border-radius: 10px;
       font-size: 15px;
@@ -156,7 +160,7 @@ height: 35vh;
         padding-left: 5px;
         padding-right: 5px;
         padding-bottom: 5px;
-        height: 6vh;
+        height: 45px;
         width: 5vw;
         border-radius: 10px;
         font-size: 15px;

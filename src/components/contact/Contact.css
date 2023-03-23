@@ -24,6 +24,7 @@
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     backdrop-filter: blur(5px);
     
@@ -36,7 +37,7 @@
     font-weight: 400;
     /* padding-left: 8vw; */
     padding-top: 15vh;
-    padding-left: 8.5vw;
+    /* padding-left: 8.5vw; */
     padding-bottom: 5vh;
     
 }
