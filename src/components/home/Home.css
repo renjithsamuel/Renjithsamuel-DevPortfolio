@@ -1,6 +1,9 @@
 .Homewrp{
     background-color: transparent;
     /* z-index: 100; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 90vh;
 }
 
@@ -9,14 +12,15 @@
     height: 80vh;
     width: 70vw;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    /* align-items: center; */
     font-size: 30px;
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     color: darkgray;
-    margin-left: 50vw;
-    margin-top: 10vh;
+    align-self: center;
+    justify-self: center;
+    margin-left: 36vw;
+    margin-top: 80vh;
     letter-spacing: 1px;
     /* z-index: 1; */
     cursor: default;
@@ -27,13 +31,12 @@
     margin-right: 5px;
 }
 
-.typetag{
-    /* z-index: 1; */
-}
 
 @media only screen and (max-width: 520px) {
     .typewriter{
-        font-size: 22px;
-        margin-left: 23vw;
+        font-size: 20px;
+        margin-left: 5vw;
+        margin-top: 60vh;
+        overflow: hidden;
     }
 }   

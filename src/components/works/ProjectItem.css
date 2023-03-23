@@ -54,6 +54,8 @@ height: 35vh;
     border-radius: 10px;
     backdrop-filter: blur(2px);
     scale: 1;
+    overflow: hidden;
+    z-index: 1;
     
   }
   
@@ -72,17 +74,19 @@ height: 35vh;
 
   .projectright{
     /* display: none; */
+    z-index: 2;
     cursor: default;
     height: 100%;
     width: 65%;
-    padding: 3vh;
+    padding: 2vh;
     transition: 0.3s ease;
     color: #b8b8b8;
     transition: 0.2s ease-in-out;
+    overflow: auto;
     /* line-gap-override: 2px; */
   }
   .projectright:hover{
-    padding-top: 3.7vh;
+    padding-top: 1vh;
     /* display: block; */
   }
   

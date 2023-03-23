@@ -157,3 +157,25 @@ body{
     }
 }
 
+::-webkit-scrollbar {
+    width: 2px;
+    border-radius: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #b8b8b8;
+    border-radius: 30px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 30px;
+      transition: all 0.5s ease;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
