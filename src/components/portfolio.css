@@ -65,7 +65,6 @@ body{
     /* background-size: 10vmin 10vmin; */
     /* background-position: 12vmin 12vmin; */
     background-position: 0% -25%;
-    opacity: 0.8;
 }
 25%{
         opacity: 1;
@@ -75,25 +74,17 @@ body{
 50% {
     background-size: 9vmin 9vmin;
     background-position: 50% -30%;
-    opacity: 0.8;
 }
 75%{
-    opacity: 1;
     /* background-size: 12vmin 12vmin; */
     background-position: 50% -30%;
 }
 100% {
     /* background-size: 12vmin 12vmin; */
     background-position: 0% -25%;
-    opacity: 0.8;
     }
 }
 
-.increaseSize{
-    background-size: 1vmin 1vmin;
-    background-position: 0% - 50%;
-    opacity: 1;
-}
 /* #portfolio-items:hover ~ #backgroundpattern{
     background-size: 11vmin 11vmin;
     opacity: 1;
@@ -124,7 +115,7 @@ body{
 .hiddenitem{
     opacity: 0;
     filter : blur(4px);
-    transform: translateX(-50%);
+    transform: translateX(-25%);
     scale: 0.8 ;
     transition-delay: 200ms;
     transition: all 0.8s ease-in-out;
@@ -135,7 +126,6 @@ body{
     filter : blur(0px);
     transform: translateX(0%);
     scale: 1;
-    /* transition-delay: 200ms; */
 }
 
 /* .hiddenitem:nth-child(1){

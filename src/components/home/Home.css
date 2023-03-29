@@ -35,8 +35,8 @@
 @media only screen and (max-width: 520px) {
     .typewriter{
         font-size: 20px;
-        margin-left: 5vw;
-        margin-top: 60vh;
+        margin-left: 8vw;
+        margin-top: 80vh;
         overflow: hidden;
     }
 }   
