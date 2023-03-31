@@ -112,7 +112,7 @@ body{
 } */
 
 
-.hiddenitem{
+/* .hiddenitem{
     opacity: 0;
     filter : blur(4px);
     transform: translateX(-25%);
@@ -126,7 +126,24 @@ body{
     filter : blur(0px);
     transform: translateX(0%);
     scale: 1;
-}
+} */
+
+  .hiddenitem {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translate3d(-30%, 0, 0) scale(0.8);
+    transition-delay: 100ms;
+    transition: opacity 0.8s ease-in-out,
+                transform 0.8s ease-in-out; /* only animate transform and opacity */
+    will-change: transform, opacity; /* tell the browser which properties will change */
+  }
+  
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate3d(0, 0, 0) scale(1);
+    will-change: transform, opacity; /* tell the browser which properties will change */
+  }
 
 /* .hiddenitem:nth-child(1){
     transition-delay: 200ms ;
