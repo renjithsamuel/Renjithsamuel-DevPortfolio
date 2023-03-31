@@ -15,6 +15,7 @@ let About = () => {
             </div>
 
             <div className='abtright'>
+              <div className="abtnew">
             <div className='Aboutmetle'>
                 About Me
               </div>
@@ -38,6 +39,7 @@ let About = () => {
                           <div className="rview">
                             <ViewResume/>
                           </div>
+                      </div>
             </div>
         </div>
       </div>

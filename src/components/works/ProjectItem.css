@@ -61,8 +61,7 @@ height: 35vh;
   
   .projectleft .projectname:hover {
     cursor: pointer;
-    transform: translateX(15px);
-    scale: 1.05;
+    transform: translateX(15px) scale(1.05);
     /* color: rgb(44, 44, 44); */
     /* border: #b8b8b8; */
     text-shadow: #b8b8b8;
@@ -86,7 +85,8 @@ height: 35vh;
     /* line-gap-override: 2px; */
   }
   .projectright:hover{
-    padding-top: 1vh;
+    /* padding-top: 1vh; */
+    transform: translateY(-10px);
     /* display: block; */
   }
   
@@ -123,13 +123,15 @@ height: 35vh;
       font-size: 15px;
       font-weight: 500;
       margin-bottom: 1vh;
+      transform: scale(1);
       transition: all 0.3s ease-in-out;
   }
 
   #livesite:hover{
     color: #020202;
     background-color: rgb(217, 217, 217);
-    width: 7.5vw;
+    transform: translateY(-5%) scale(1.05);
+    /* width: 7.5vw; */
   }
 
   #livesite a{
@@ -171,12 +173,14 @@ height: 35vh;
         font-weight: 500;
         color: rgb(0, 0, 88);
         margin-bottom: 1vh;
+        transform: translateY(0%) scale(1);
         transition: 0.2s ease-in-out;
     }
 
     .madewith:hover{
       background-color: rgb(185, 185, 185);
-      width: 5.5vw;
+      /* width: 5.5vw; */
+      transform: translateY(5%) scale(1.05);
     }
 
 
@@ -221,8 +225,9 @@ height: 35vh;
     }
     .madewith{
       width: 20vw;
+      transform: translateY(0%) scale(1);
     }
     .madewith:hover{
-      width: 23vw;
+      transform: translateY(5%) scale(1.05);
     }
   }
