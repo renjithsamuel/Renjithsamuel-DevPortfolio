@@ -5,8 +5,18 @@ import ProjectItem from './ProjectItem'
 
 export default function Works() {
   let projectItems = {
-    ExpenseMate : {
+    LibraryHive : {
       key:1,
+      image : 'https://i.ibb.co/tKjPRTv/Library-Hive.png',
+      name : 'Library Hive' ,
+      title : 'Library Management App',
+      desc : "This project is a web application for managing a library of books. It allows users to search, sort, and filter books, and includes a pagination system to load additional books as the user scrolls.",
+      madewith : "HTML",
+      gitlink: 'https://github.com/renjithsamuel/LibraryManagement',
+      livesite: 'https://libraryhive.vercel.app/#'
+    },
+    ExpenseMate : {
+      key:2,
       image : 'https://i.ibb.co/MGLR70x/homepage.png',
       name : 'Expense Mate' ,
       title : 'Expense Tracker Website',
@@ -16,7 +26,7 @@ export default function Works() {
       livesite: 'https://renjithsamuel.github.io/ExpenseMate/'
     },
     OnYourMarks : {
-      key:2,
+      key:3,
       image : 'https://i.ibb.co/KLM6Pn4/On-Your-Markscover.jpg',
       name : 'On Your Marks' ,
       title : 'School Management App',
@@ -25,7 +35,7 @@ export default function Works() {
       gitlink: 'https://github.com/renjithsamuel/Student_management_system'
     },
     LiveFuelUpdater : {
-      key:3,
+      key:4,
       image : 'https://i.ibb.co/fqDtTgq/fuelprice.jpg',
       name : 'Live Fuel Updater' ,
       title : 'Live Fuel Price Updater App',
@@ -33,6 +43,7 @@ export default function Works() {
       madewith : "Flask",
       gitlink: 'https://github.com/renjithsamuel/LiveFuelPriceUpdater'
     },
+
 
   }
 

@@ -7,7 +7,7 @@
     /* margin-top: 10vh; */
     
     width: 100%;
-    height: 210vh;
+    height: 280vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,10 +37,6 @@
     
 }
 
-.projectwrp:hover{
-
-    
-}
 
 .myworks{
   /* background-color: rgb(77, 77, 77); */
@@ -64,9 +60,23 @@
   }
   
 
-  @media only screen and (max-width: 520px) {
+  @media only screen and (min-width: 2000px) {
     .projectwrp{
-      height: 250vh;
+      height: 220vh;
+      width: 90%;
+      margin-top: 80vh;
+      /* margin-left: 3vh; */
+      margin-bottom: 50vh;
+    }
+    .myworks{
+      font-size: 30px;
+    }
+  
+  }  
+
+  @media only screen and (max-width: 620px) {
+    .projectwrp{
+      height: 330vh;
       width: 90%;
       margin-top: 80vh;
       /* margin-left: 3vh; */

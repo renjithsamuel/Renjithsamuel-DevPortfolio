@@ -165,6 +165,7 @@ body{
 }
 
 ::-webkit-scrollbar {
+    display: none;
     width: 2px;
     border-radius: 30px;
 }
