@@ -5,6 +5,19 @@
   box-sizing: border-box;
 }
 
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.371);
+    filter: blur(20px);
+    pointer-events: none;
+    transition: all 0s ease-in-out;
+}
 
 html {
     scroll-snap-type: y proximity;

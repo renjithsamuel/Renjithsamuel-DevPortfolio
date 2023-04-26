@@ -10,7 +10,9 @@ import { Link } from 'react-scroll';
 export default function Portfolio() {
 
   const [prevScrollpos, setPrevScrollpos] = useState(0);
+  const [prevMousepos, setPrevMousepos] = useState(0);
   const backgroundPatternRef = useRef(null);
+  const CursorRef = useRef(null);
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
@@ -28,6 +30,19 @@ export default function Portfolio() {
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, [prevScrollpos]);
+
+
+  useEffect(()=>{
+    const handleCursor = (e) =>{
+        const currMousePos = e.clientX + e.clientY;
+        CursorRef.current.style.left = (e.clientX-10)+ "px";
+        CursorRef.current.style.top = (e.clientY-10) + "px";
+        setPrevMousepos(currMousePos);
+      };
+      
+      window.addEventListener("mousemove",handleCursor );
+      return () => window.removeEventListener('mousemove',handleCursor);
+  },[prevMousepos])
   
 
   const observer = new IntersectionObserver((entries) => {
@@ -69,6 +84,7 @@ export default function Portfolio() {
         <div id="backgroundpattern"  ref={backgroundPatternRef}>
           
           </div>
+          <div className="cursor" ref={CursorRef}></div>
     </div>
   )
 }
