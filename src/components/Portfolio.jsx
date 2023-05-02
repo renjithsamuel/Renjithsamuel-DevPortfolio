@@ -26,7 +26,20 @@ export default function Portfolio() {
       setPrevScrollpos(currentScrollPos);
     };
 
-    window.addEventListener('scroll', handleScroll);
+        function throttle (callbackFn, limit) {
+          let wait = false;                  
+          return function () {              
+              if (!wait) {                  
+                  callbackFn.call();           
+                  wait = true;               
+                  setTimeout(function () {   
+                      wait = false;          
+                  }, limit);
+              }
+          }
+      }
+  
+     window.addEventListener("scroll", throttle(handleScroll, 150));
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, [prevScrollpos]);
