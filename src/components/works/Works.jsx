@@ -5,8 +5,18 @@ import ProjectItem from './ProjectItem'
 
 export default function Works() {
   let projectItems = {
-    LibraryHive : {
+    LeavePortal : {
       key:1,
+      image : 'https://gcdnb.pbrd.co/images/KTmAVxijVBuH.png?o=1',
+      name : 'Leave Portal' ,
+      title : 'Leave Portal App',
+      desc : "This is a single page web application for managing a Leaves in an organisation. It allows users to apply leave , sort, and admins to approve it",
+      madewith : "ReactJS",
+      gitlink: 'https://github.com/renjithsamuel/LeaveApprovalApp',
+      livesite: 'https://leaveportal.vercel.app/'
+    },
+    LibraryHive : {
+      key:2,
       image : 'https://i.ibb.co/tKjPRTv/Library-Hive.png',
       name : 'Library Hive' ,
       title : 'Library Management App',
@@ -16,7 +26,7 @@ export default function Works() {
       livesite: 'https://libraryhive.vercel.app/#'
     },
     ExpenseMate : {
-      key:2,
+      key:3,
       image : 'https://i.ibb.co/MGLR70x/homepage.png',
       name : 'Expense Mate' ,
       title : 'Expense Tracker Website',
@@ -26,7 +36,7 @@ export default function Works() {
       livesite: 'https://renjithsamuel.github.io/ExpenseMate/'
     },
     OnYourMarks : {
-      key:3,
+      key:4,
       image : 'https://i.ibb.co/KLM6Pn4/On-Your-Markscover.jpg',
       name : 'On Your Marks' ,
       title : 'School Management App',
@@ -35,7 +45,7 @@ export default function Works() {
       gitlink: 'https://github.com/renjithsamuel/Student_management_system'
     },
     LiveFuelUpdater : {
-      key:4,
+      key:5,
       image : 'https://i.ibb.co/fqDtTgq/fuelprice.jpg',
       name : 'Live Fuel Updater' ,
       title : 'Live Fuel Price Updater App',

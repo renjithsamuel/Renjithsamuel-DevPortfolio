@@ -5,7 +5,7 @@ import About from './about/About';
 import Works from './works/Works';
 import Contact from './contact/Contact';
 import './portfolio.css';
-import { Element, scroller } from 'react-scroll';
+import { Element } from 'react-scroll';
 import { Link } from 'react-scroll';
 export default function Portfolio() {
 
