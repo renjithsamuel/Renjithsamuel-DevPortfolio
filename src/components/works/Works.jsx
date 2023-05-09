@@ -7,7 +7,7 @@ export default function Works() {
   let projectItems = {
     LeavePortal : {
       key:1,
-      image : 'https://gcdnb.pbrd.co/images/KTmAVxijVBuH.png?o=1',
+      image : 'https://gcdnb.pbrd.co/images/80PO5RCcQup0.png?o=1',
       name : 'Leave Portal' ,
       title : 'Leave Portal App',
       desc : "This is a single page web application for managing a Leaves in an organisation. It allows users to apply leave , sort, and admins to approve it",
@@ -33,7 +33,7 @@ export default function Works() {
       desc : "This is a web application for tracking your expenses. It was created using HTML, CSS, and JavaScript for the front end, and Node.js, MongoDB, Express, and Mongoose for the backend. The user interface is designed to be simple, clean, and neat.",
       madewith : "NodeJS",
       gitlink:'https://github.com/renjithsamuel/ExpenseMate',
-      livesite: 'https://renjithsamuel.github.io/ExpenseMate/'
+      livesite: 'https://expensemate.vercel.app'
     },
     OnYourMarks : {
       key:4,
