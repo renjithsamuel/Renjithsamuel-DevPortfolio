@@ -37,7 +37,7 @@ html {
 body{
     /* backdrop-filter: blur(1px    ); */
     font-family: "poppins", sans-serif;
-
+    height: max-content;
     background-color: #0a0a0a;
 }
 
@@ -54,7 +54,7 @@ body{
 
 
 #backgroundpattern{
-    height: 530vh;
+    height: 670vh;
     width: 100vw;
     background-image: radial-gradient(
         rgba(2255,255,255,0.1)9%,
@@ -199,4 +199,14 @@ body{
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+
+
+
+  @media only screen and (max-width: 620px) {
+
+    
+#backgroundpattern{
+    height: 759vh;}
+
   }
