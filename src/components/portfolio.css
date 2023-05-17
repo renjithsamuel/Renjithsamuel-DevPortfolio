@@ -20,10 +20,16 @@
 }
 
 html {
-    scroll-snap-type: y proximity;
     overflow-x  : hidden;
-    
-  }
+}
+    #portfolio-items{
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+    }
+
+    Element{
+        scroll-snap-align:start;
+    }
 
 *{  
     color:white;
@@ -39,6 +45,7 @@ body{
     font-family: "poppins", sans-serif;
     height: max-content;
     background-color: #0a0a0a;
+    scroll-snap-type: y mandatory;
 }
 
 
@@ -54,7 +61,7 @@ body{
 
 
 #backgroundpattern{
-    height: 670vh;
+    height: 635vh;
     width: 100vw;
     background-image: radial-gradient(
         rgba(2255,255,255,0.1)9%,
@@ -158,6 +165,8 @@ body{
     will-change: transform, opacity; /* tell the browser which properties will change */
   }
 
+  
+
 /* .hiddenitem:nth-child(1){
     transition-delay: 200ms ;
 }
@@ -203,10 +212,18 @@ body{
 
 
 
-  @media only screen and (max-width: 620px) {
+  @media only screen and (max-width: 820px) {
 
     
 #backgroundpattern{
-    height: 759vh;}
+    height: 729vh;}
+
+  }
+
+  @media only screen and (max-width: 420px) {
+
+    
+#backgroundpattern{
+    height: 749vh;}
 
   }

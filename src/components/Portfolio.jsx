@@ -77,6 +77,7 @@ export default function Portfolio() {
 
 
         <div id="portfolio-items">
+          
           <Navbar id='Navbar' >
           <Link to="Home" smooth={true} duration={500}>Home</Link>
          <Link to="About" smooth={true} duration={500}>About</Link>
