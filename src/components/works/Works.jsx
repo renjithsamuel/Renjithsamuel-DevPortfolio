@@ -3,7 +3,7 @@ import './Works.css'
 import ProjectItem from './ProjectItem'
 
 
-export default function Works() {
+export default React.memo(function Works() {
   let projectItems = {
     LeavePortal : {
       key:1,
@@ -69,14 +69,14 @@ export default function Works() {
       </div>
       <div className="projectwrp">
       <div className="myworks">Works</div>
-{
-projectItemArray
-}
+          {
+          projectItemArray
+          }
       </div>
     </div>
 
   )
-}
+})
 
 // import Particles from "react-tsparticles";
 // import { loadFull } from "tsparticles";

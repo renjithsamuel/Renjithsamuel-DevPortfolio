@@ -3,7 +3,7 @@ import './Contact.css';
 import Links from './links/Links';
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set } from "firebase/database";
-export default function Contact() {
+export default React.memo(function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
@@ -103,4 +103,4 @@ export default function Contact() {
       </div>
     </div>
   )
-}
+})

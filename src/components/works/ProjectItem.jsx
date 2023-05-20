@@ -23,7 +23,7 @@ function ProjectItem(props) {
                   Description 
                 {props.projectItems.livesite &&
                     <div id="livesite">
-                      <a href={props.projectItems.livesite} target={'_blank'}>Live Site</a>
+                      <a href={props.projectItems.livesite} target={'_blank'} rel="noreferrer">Live Site</a>
                     </div>
                   }
                 </div>
@@ -43,4 +43,4 @@ function ProjectItem(props) {
   )
 }
 
-export default ProjectItem;
+export default React.memo(ProjectItem);

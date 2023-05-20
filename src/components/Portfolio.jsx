@@ -7,7 +7,7 @@ import Contact from './contact/Contact';
 import './portfolio.css';
 import { Element } from 'react-scroll';
 import { Link } from 'react-scroll';
-export default function Portfolio() {
+export default React.memo(function Portfolio() {
 
   const [prevScrollpos, setPrevScrollpos] = useState(0);
   const [prevMousepos, setPrevMousepos] = useState(0);
@@ -101,4 +101,4 @@ export default function Portfolio() {
           <div className="cursor" ref={CursorRef}></div>
     </div>
   )
-}
+})

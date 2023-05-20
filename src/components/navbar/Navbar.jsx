@@ -1,7 +1,7 @@
 import React,{useEffect , useState} from 'react';
 import './Navbar.css';
 
-export default function Navbar() {
+export default React.memo(function Navbar() {
 
   const [prevScrollpos, setPrevScrollpos] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -51,4 +51,4 @@ export default function Navbar() {
       
     </div>
   );
-}
+})
