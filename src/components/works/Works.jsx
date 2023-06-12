@@ -25,8 +25,18 @@ export default React.memo(function Works() {
       gitlink: 'https://github.com/renjithsamuel/LibraryManagement',
       livesite: 'https://libraryhive.vercel.app/#'
     },
-    ExpenseMate : {
+    Sudokio : {
       key:3,
+      image : 'https://i.ibb.co/pLWyVh8/Sudokio.png',
+      name : 'Sudokio Hive' ,
+      title : 'Sudoku online game',
+      desc : "Sudokio is a simple online Sudoku game implemented using HTML, CSS, and JavaScript. It provides a user-friendly interface and a clean design for an enjoyable gaming experience.",
+      madewith : "HTML",
+      gitlink: 'https://github.com/renjithsamuel/Sudokio',
+      livesite: 'https://sudokio.vercel.app/#'
+    },
+    ExpenseMate : {
+      key:4,
       image : 'https://i.ibb.co/MGLR70x/homepage.png',
       name : 'Expense Mate' ,
       title : 'Expense Tracker Website',
@@ -36,7 +46,7 @@ export default React.memo(function Works() {
       livesite: 'https://expensemate.vercel.app'
     },
     OnYourMarks : {
-      key:4,
+      key:5,
       image : 'https://i.ibb.co/KLM6Pn4/On-Your-Markscover.jpg',
       name : 'On Your Marks' ,
       title : 'School Management App',
@@ -45,7 +55,7 @@ export default React.memo(function Works() {
       gitlink: 'https://github.com/renjithsamuel/Student_management_system'
     },
     LiveFuelUpdater : {
-      key:5,
+      key:6,
       image : 'https://i.ibb.co/fqDtTgq/fuelprice.jpg',
       name : 'Live Fuel Updater' ,
       title : 'Live Fuel Price Updater App',

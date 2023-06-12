@@ -6,7 +6,7 @@
     /* cursor: pointer; */
     /* margin-top: 10vh; */
     width: 100%;
-    height: 340vh;
+    height: 400vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,7 +75,7 @@
 
   @media only screen and (max-width: 820px) {
     .projectwrp{
-      height: 420vh;
+      height: 490vh;
       width: 90%;
       margin-top: 20vh;
       /* margin-left: 3vh; */
