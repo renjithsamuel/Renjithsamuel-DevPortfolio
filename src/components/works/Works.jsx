@@ -5,8 +5,18 @@ import ProjectItem from './ProjectItem'
 
 export default React.memo(function Works() {
   let projectItems = {
+    Sudokio : {
+      key:6,
+      image : 'https://i.ibb.co/kXyZKFX/sudokio2.png',
+      name : 'Sudokio' ,
+      title : 'Sudoku online game',
+      desc : "Sudokio is a web-based Sudoku game that allows you to play Sudoku, compete with other players, and track your scores. It provides easy Google Sign-In system, and various features to enhance your Sudoku experience.",
+      madewith : "ReactJS",
+      gitlink: 'https://github.com/renjithsamuel/Sudokio_Online',
+      livesite: 'https://sudokio.vercel.app'
+    },
     LeavePortal : {
-      key:1,
+      key:5,
       image : 'https://gcdnb.pbrd.co/images/80PO5RCcQup0.png?o=1',
       name : 'Leave Portal' ,
       title : 'Leave Portal App',
@@ -16,7 +26,7 @@ export default React.memo(function Works() {
       livesite: 'https://leaveportal.vercel.app/'
     },
     LibraryHive : {
-      key:2,
+      key:4,
       image : 'https://i.ibb.co/tKjPRTv/Library-Hive.png',
       name : 'Library Hive' ,
       title : 'Library Management App',
@@ -25,18 +35,8 @@ export default React.memo(function Works() {
       gitlink: 'https://github.com/renjithsamuel/LibraryManagement',
       livesite: 'https://libraryhive.vercel.app/#'
     },
-    Sudokio : {
-      key:3,
-      image : 'https://i.ibb.co/pLWyVh8/Sudokio.png',
-      name : 'Sudokio Hive' ,
-      title : 'Sudoku online game',
-      desc : "Sudokio is a simple online Sudoku game implemented using HTML, CSS, and JavaScript. It provides a user-friendly interface and a clean design for an enjoyable gaming experience.",
-      madewith : "HTML",
-      gitlink: 'https://github.com/renjithsamuel/Sudokio',
-      livesite: 'https://sudokio.vercel.app/#'
-    },
     ExpenseMate : {
-      key:4,
+      key:3,
       image : 'https://i.ibb.co/MGLR70x/homepage.png',
       name : 'Expense Mate' ,
       title : 'Expense Tracker Website',
@@ -46,7 +46,7 @@ export default React.memo(function Works() {
       livesite: 'https://expensemate.vercel.app'
     },
     OnYourMarks : {
-      key:5,
+      key:2,
       image : 'https://i.ibb.co/KLM6Pn4/On-Your-Markscover.jpg',
       name : 'On Your Marks' ,
       title : 'School Management App',
@@ -55,7 +55,7 @@ export default React.memo(function Works() {
       gitlink: 'https://github.com/renjithsamuel/Student_management_system'
     },
     LiveFuelUpdater : {
-      key:6,
+      key:1,
       image : 'https://i.ibb.co/fqDtTgq/fuelprice.jpg',
       name : 'Live Fuel Updater' ,
       title : 'Live Fuel Price Updater App',
@@ -63,8 +63,6 @@ export default React.memo(function Works() {
       madewith : "Flask",
       gitlink: 'https://github.com/renjithsamuel/LiveFuelPriceUpdater'
     },
-
-
   }
 
 
