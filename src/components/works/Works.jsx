@@ -5,6 +5,16 @@ import ProjectItem from './ProjectItem'
 
 export default React.memo(function Works() {
   let projectItems = {
+    TaskReporter : {
+      key:6,
+      image : 'https://i.ibb.co/F5PspYJ/Screenshot-561.png',
+      name : 'Task Reporter' ,
+      title : 'Task Management Application',
+      desc : "The application allows users to create and track multiple projects simultaneously, keeping track of their progress and syncing data dynamically when the device goes online after working offline.",
+      madewith : "ReactJS",
+      gitlink: 'https://github.com/renjithsamuel/TaskReporter',
+      livesite: 'https://taskreporter.vercel.app'
+    },
     Sudokio : {
       key:6,
       image : 'https://i.ibb.co/kXyZKFX/sudokio2.png',
