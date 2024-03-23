@@ -1,100 +1,88 @@
-import React from 'react'
-import './Works.css'
-import ProjectItem from './ProjectItem'
-
+import React from "react";
+import "./Works.css";
+import ProjectItem from "./ProjectItem";
 
 export default React.memo(function Works() {
   let projectItems = {
-    TaskReporter : {
-      key:6,
-      image : 'https://i.ibb.co/F5PspYJ/Screenshot-561.png',
-      name : 'Task Reporter' ,
-      title : 'Task Management Application',
-      desc : "The application allows users to create and track multiple projects simultaneously, keeping track of their progress and syncing data dynamically when the device goes online after working offline.",
-      madewith : "ReactJS",
-      gitlink: 'https://github.com/renjithsamuel/TaskReporter',
-      livesite: 'https://taskreporter.vercel.app'
+    IntegratedLibrary: {
+      key: 7,
+      image: "https://i.ibb.co/pjS9ntK/ILM-Dashboard.png",
+      name: "Integrated Library",
+      title: "Library Management Application",
+      desc: `This application is made with NextJS, Typescript, Golang and
+      PostgresSql, with an objective as to create a user friendly,
+      automated typingless library manager.`,
+      madewith: "NextJS/GoLang",
+      gitlink: "https://github.com/renjithsamuel/ILM",
+      livesite: "https://ilm-library-lemon.vercel.app/",
     },
-    Sudokio : {
-      key:6,
-      image : 'https://i.ibb.co/kXyZKFX/sudokio2.png',
-      name : 'Sudokio' ,
-      title : 'Sudoku online game',
-      desc : "Sudokio is a web-based Sudoku game that allows you to play Sudoku, compete with other players, and track your scores. It provides easy Google Sign-In system, and various features to enhance your Sudoku experience.",
-      madewith : "ReactJS",
-      gitlink: 'https://github.com/renjithsamuel/Sudokio_Online',
-      livesite: 'https://sudokio.vercel.app'
+    TaskReporter: {
+      key: 7,
+      image: "https://i.ibb.co/F5PspYJ/Screenshot-561.png",
+      name: "Task Reporter",
+      title: "Task Management Application",
+      desc: "The application allows users to create and track multiple projects simultaneously, keeping track of their progress and syncing data dynamically when the device goes online after working offline.",
+      madewith: "ReactJS/NodeJS",
+      gitlink: "https://github.com/renjithsamuel/TaskReporter",
+      livesite: "https://taskreporter.vercel.app",
     },
-    LeavePortal : {
-      key:5,
-      image : 'https://gcdnb.pbrd.co/images/80PO5RCcQup0.png?o=1',
-      name : 'Leave Portal' ,
-      title : 'Leave Portal App',
-      desc : "This is a single page web application for managing a Leaves in an organisation. It allows users to apply leave , sort, and admins to approve it",
-      madewith : "ReactJS",
-      gitlink: 'https://github.com/renjithsamuel/LeaveApprovalApp',
-      livesite: 'https://leaveportal.vercel.app/'
+    Sudokio: {
+      key: 6,
+      image: "https://i.ibb.co/kXyZKFX/sudokio2.png",
+      name: "Sudokio",
+      title: "Sudoku online game",
+      desc: "Sudokio is a web-based Sudoku game that allows you to play Sudoku, compete with other players, and track your scores. It provides easy Google Sign-In system, and various features to enhance your Sudoku experience.",
+      madewith: "ReactJS/NodeJS",
+      gitlink: "https://github.com/renjithsamuel/Sudokio_Online",
+      livesite: "https://sudokio.vercel.app",
     },
-    LibraryHive : {
-      key:4,
-      image : 'https://i.ibb.co/tKjPRTv/Library-Hive.png',
-      name : 'Library Hive' ,
-      title : 'Library Management App',
-      desc : "This project is a web application for managing a library of books. It allows users to search, sort, and filter books, and includes a pagination system to load additional books as the user scrolls.",
-      madewith : "HTML",
-      gitlink: 'https://github.com/renjithsamuel/LibraryManagement',
-      livesite: 'https://libraryhive.vercel.app/#'
+    LeavePortal: {
+      key: 5,
+      image: "https://i.ibb.co/3RS1HZS/leave-portal.png",
+      name: "Leave Portal",
+      title: "Leave Portal App",
+      desc: "This is a single page web application for managing a Leaves in an organisation. It allows users to apply leave , sort, and admins to approve it",
+      madewith: "ReactJS/NodeJS",
+      gitlink: "https://github.com/renjithsamuel/LeaveApprovalApp",
+      livesite: "https://leaveportal.vercel.app/",
     },
-    ExpenseMate : {
-      key:3,
-      image : 'https://i.ibb.co/MGLR70x/homepage.png',
-      name : 'Expense Mate' ,
-      title : 'Expense Tracker Website',
-      desc : "This is a web application for tracking your expenses. It was created using HTML, CSS, and JavaScript for the front end, and Node.js, MongoDB, Express, and Mongoose for the backend. The user interface is designed to be simple, clean, and neat.",
-      madewith : "NodeJS",
-      gitlink:'https://github.com/renjithsamuel/ExpenseMate',
-      livesite: 'https://expensemate.vercel.app'
+    LibraryHive: {
+      key: 4,
+      image: "https://i.ibb.co/tKjPRTv/Library-Hive.png",
+      name: "Library Hive",
+      title: "Library Management App",
+      desc: "This project is a web application for managing a library of books. It allows users to search, sort, and filter books, and includes a pagination system to load additional books as the user scrolls.",
+      madewith: "HTML/NodeJS",
+      gitlink: "https://github.com/renjithsamuel/LibraryManagement",
+      livesite: "https://libraryhive.vercel.app/#",
     },
-    OnYourMarks : {
-      key:2,
-      image : 'https://i.ibb.co/KLM6Pn4/On-Your-Markscover.jpg',
-      name : 'On Your Marks' ,
-      title : 'School Management App',
-      desc : "An App that tracks real-time students learning’s outcomes and their academic progress across schools. Both Parents and Teachers can see the progress of students both in academics as well as in co-curricular activity",
-      madewith : "Flutter",
-      gitlink: 'https://github.com/renjithsamuel/Student_management_system'
+    ExpenseMate: {
+      key: 3,
+      image: "https://i.ibb.co/MGLR70x/homepage.png",
+      name: "Expense Mate",
+      title: "Expense Tracker Website",
+      desc: "This is a web application for tracking your expenses. It was created using HTML, CSS, and JavaScript for the front end, and Node.js, MongoDB, Express, and Mongoose for the backend. The user interface is designed to be simple, clean, and neat.",
+      madewith: "HTML/NodeJS",
+      gitlink: "https://github.com/renjithsamuel/ExpenseMate",
+      livesite: "https://expensemate.vercel.app",
     },
-    LiveFuelUpdater : {
-      key:1,
-      image : 'https://i.ibb.co/fqDtTgq/fuelprice.jpg',
-      name : 'Live Fuel Updater' ,
-      title : 'Live Fuel Price Updater App',
-      desc : "Using this web app, we can easily know the up-to-date fuel price in all the states in India. Our application fetches the latest fuel price across all the states in India and displays in the app. We developed this in HTML and CSS.",
-      madewith : "Flask",
-      gitlink: 'https://github.com/renjithsamuel/LiveFuelPriceUpdater'
-    },
-  }
-
+  };
 
   const projectItemArray = Object.values(projectItems).map((item) => (
     <ProjectItem projectItems={item} />
   ));
   return (
-   
-    <div className='Work' id='Work'>
-       <div className='particles-container'>
-      {/* <Particles options={options} init={particlesInit}/> */}
+    <div className="Work" id="Work">
+      <div className="particles-container">
+        {/* <Particles options={options} init={particlesInit}/> */}
       </div>
       <div className="projectwrp">
-      <div className="myworks">Works</div>
-          {
-          projectItemArray
-          }
+        <div className="myworks">Works</div>
+        {projectItemArray}
       </div>
     </div>
-
-  )
-})
+  );
+});
 
 // import Particles from "react-tsparticles";
 // import { loadFull } from "tsparticles";
@@ -168,12 +156,9 @@ export default React.memo(function Works() {
 //       }
 //     ],
 
-
 //   }
 // };
 
-
- 
 // const particlesInit = useCallback(async (engine) => {
 //   await loadFull(engine);
 // }, []);
