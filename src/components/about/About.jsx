@@ -19,7 +19,7 @@ let About = () => {
           <div className="abtnew">
             <div className="Aboutmetle">About Me</div>
             <div className="abtabt">
-              Hello there! My name is Renjith Samuel and I am a passionate
+              Hi there! My name is Renjith Samuel and I am a passionate
               Full-stack developer. I am currently pursuing Computer Science
               Engineering at Bannari Amman Institute of Technology. My journey
               in the world of technology has been full of exciting challenges,

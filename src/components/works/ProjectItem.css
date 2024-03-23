@@ -181,7 +181,7 @@ height: 35vh;
   .projectItem {
     margin-left: 0.9rem;
     font-size: 13px;
-    height: 70vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     width: 93%;
@@ -215,7 +215,7 @@ height: 35vh;
     display: none;
   }
   .madewith {
-    width: 20vw;
+    width: fit-content;
     transform: translateY(0%) scale(1);
   }
   .madewith:hover {
