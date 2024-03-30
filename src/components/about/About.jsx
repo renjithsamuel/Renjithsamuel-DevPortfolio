@@ -23,7 +23,7 @@ let About = () => {
               Full-stack developer. I am currently pursuing Computer Science
               Engineering at Bannari Amman Institute of Technology. My journey
               in the world of technology has been full of exciting challenges,
-              from learning C programming to NextJS.
+              from learning C programming to GoLang and NextJS.
               <div className="sepbetabt"></div>I never thought I would enjoy the
               journey of problem-solving and learning new skills and
               technologies as much as I do now. I consider myself as a curious

@@ -1,27 +1,28 @@
-import React, { Component } from 'react'
-import Typewriter from 'typewriter-effect';
-import './Home.css';
+import React, { Component } from "react";
+import Typewriter from "typewriter-effect";
+import "./Home.css";
 export default function Home() {
-
   return (
-    
-
-<div className="Homewrp">
-      <div className='typewriter' id="Home">
-        <div className='imtag' >I'm</div>
-        <Typewriter className="typetag"
+    <div className="Homewrp">
+      <div className="typewriter" id="Home">
+        <div className="imtag">I'm</div>
+        <Typewriter
+          className="typetag"
           options={{
-            strings: ['Renjith Samuel', 'a Web Developer','a Front-end Developer','a Back-end Developer'],
-            typeSpeed:150,
+            strings: [
+              "Renjith Samuel",
+              "a Web Developer",
+              "a Front-end Developer",
+              "a Back-end Developer",
+            ],
+            typeSpeed: 120,
             autoStart: true,
             loop: true,
-            delay:80,
-            pauseFor:300,
-  
+            delay: 100,
+            pauseFor: 500,
           }}
         />
       </div>
-</div>
-  
-  )
+    </div>
+  );
 }

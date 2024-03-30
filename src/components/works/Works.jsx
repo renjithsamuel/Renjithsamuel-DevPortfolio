@@ -5,7 +5,7 @@ import ProjectItem from "./ProjectItem";
 export default React.memo(function Works() {
   let projectItems = {
     IntegratedLibrary: {
-      key: 7,
+      key: 8,
       image: "https://i.ibb.co/pjS9ntK/ILM-Dashboard.png",
       name: "Integrated Library",
       title: "Library Management Application",
@@ -15,6 +15,16 @@ export default React.memo(function Works() {
       madewith: "NextJS/GoLang",
       gitlink: "https://github.com/renjithsamuel/ILM",
       livesite: "https://ilm-library-lemon.vercel.app/",
+    },
+    FruitSellerApplication: {
+      key: 7,
+      image: "https://i.ibb.co/1KB04qT/fruits-Basket2.png",
+      name: "Fruits Basket",
+      title: "E-Commerce Application",
+      desc: `This is an E-Commerce application made with Golang,
+      PostgresSql, gRPC, Microservices with Event Sourcing Architecture, NextJS, And Typescript for learning.`,
+      madewith: "NextJS/GoLang",
+      gitlink: "https://github.com/renjithsamuel/Fruit_Seller_Application",
     },
     TaskReporter: {
       key: 7,
