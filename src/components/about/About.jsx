@@ -19,20 +19,30 @@ let About = () => {
           <div className="abtnew">
             <div className="Aboutmetle">About Me</div>
             <div className="abtabt">
-              Hi there! My name is Renjith Samuel and I am a passionate
-              Full-stack developer. I am currently pursuing Computer Science
-              Engineering at Bannari Amman Institute of Technology. My journey
-              in the world of technology has been full of exciting challenges,
-              from learning C programming to GoLang and NextJS.
-              <div className="sepbetabt"></div>I never thought I would enjoy the
-              journey of problem-solving and learning new skills and
-              technologies as much as I do now. I consider myself as a curious
-              learner, always in awe of every new thing I discover. I believe
-              that the road to mastering these skills is a lifelong adventure,
-              and I am ready to embrace it. Recently, I have been particularly
-              interested in Web development with NextJS. I am amazed by the
-              power of these technologies and their ability to transform the way
-              we interact with the digital world.
+              {/* Para 1 */}
+              Hi there! I'm <strong>Renjith Samuel</strong>, a dedicated
+              Full-Stack Developer with over a year of experience building
+              scalable, efficient, and user-friendly web applications. My
+              expertise spans{" "}
+              <strong>
+                Golang, Next.js, PostgreSQL, and microservices architecture
+              </strong>
+              , with a strong focus on performance and reliability.
+              <div className="sepbetabt"></div>
+              {/* Para 2 */}
+              I've contributed to impactful projects like{" "}
+              <strong>eCommerce platforms</strong>
+              and <strong>order management systems</strong>, solving complex
+              challenges and delivering high-quality solutions. I believe in
+              continuous learning, collaboration, and writing clean,
+              maintainable code that drives meaningful results.
+              <div className="sepbetabt"></div>
+              {/* Para 3 */}
+              Beyond development, I prioritize writing comprehensive tests to
+              ensure quality and maintainability and have a proven track record
+              of improving system performance and optimizing workflows. My goal
+              is to build innovative solutions that not only meet business needs
+              but also enhance user experience.
             </div>
 
             <div className="rview">
